@@ -1,7 +1,7 @@
 # all large imges are here: https://imgur.com/a/4L5JoC3
 
 title: La Raclette
-title-img: assets/img/logo-wide.png
+title-img: "assets/img/logo-wide.png"
 
 keywords: "food,raclette,dinner,dining,party,event,catering"
 
@@ -19,7 +19,7 @@ social-network-links:
   spotify: laraclette
   telephone: +19051111111
 
-navbar-img: "assets/img/bgpattern.png"
+navbar-img: "/assets/img/bgpattern.png"
 navbar-text-col: "#ebb72a"
 navbar-border-col: "#ebb72a"
 text-col: "#8d0b0e"
@@ -29,7 +29,7 @@ footer-link-col: "#ebb72a"
 
 # ======= Advanced settings below here ========
 
-remote_theme: daattali/beautiful-jekyll@5.0.0
+remote_theme: daattali/beautiful-jekyll
 
 timezone: "America/Toronto"
 markdown: kramdown
