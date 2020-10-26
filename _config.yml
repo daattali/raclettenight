@@ -1,1 +1,57 @@
+# all large imges are here: https://imgur.com/a/4L5JoC3
+
+title: La Raclette
+title-img: /assets/img/logo-wide.png
+
+keywords: "food,raclette,dinner,dining,party,event,catering"
+
+author: © Copyright &bull; La Raclette
+
+navbar-links:
+  Home: "/"
+  Order: "order"
+  How to Use: "howtouse"
+  Contact Us: "contact"
+
+social-network-links:
+  email: "info@raclettenight.com"
+  instagram: raclettenight
+  spotify: laraclette
+  telephone: +19051111111
+
+navbar-img: "/assets/img/bgpattern.png"
+navbar-text-col: "#ebb72a"
+navbar-border-col: "#ebb72a"
+text-col: "#8d0b0e"
+footer-img: "/assets/img/bgpattern.png"
+footer-text-col: "#ebb72a"
+footer-link-col: "#ebb72a"
+
+# ======= Advanced settings below here ========
+
 remote_theme: daattali/beautiful-jekyll@5.0.0
+
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
